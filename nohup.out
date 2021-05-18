@@ -1,0 +1,54 @@
+[I 15:13:25.917 LabApp] JupyterLab extension loaded from /home/robotmessenger810/anaconda3/envs/r_3/lib/python3.8/site-packages/jupyterlab
+[I 15:13:25.917 LabApp] JupyterLab application directory is /home/robotmessenger810/anaconda3/envs/r_3/share/jupyter/lab
+[I 15:13:25.919 LabApp] Serving notebooks from local directory: /home/robotmessenger810/sc_analysis/code
+[I 15:13:25.920 LabApp] The Jupyter Notebook is running at:
+[I 15:13:25.920 LabApp] http://r-seurat-jup:12345/?token=a00ba1eefd92aa5742fe9566091899e92fa31ebc618d2f4e
+[I 15:13:25.920 LabApp]  or http://127.0.0.1:12345/?token=a00ba1eefd92aa5742fe9566091899e92fa31ebc618d2f4e
+[I 15:13:25.920 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:13:25.924 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/robotmessenger810/.local/share/jupyter/runtime/nbserver-4901-open.html
+    Or copy and paste one of these URLs:
+        http://r-seurat-jup:12345/?token=a00ba1eefd92aa5742fe9566091899e92fa31ebc618d2f4e
+     or http://127.0.0.1:12345/?token=a00ba1eefd92aa5742fe9566091899e92fa31ebc618d2f4e
+[I 15:13:48.006 LabApp] 302 GET /?token=a00ba1eefd92aa5742fe9566091899e92fa31ebc618d2f4e (127.0.0.1) 0.97ms
+[W 15:13:50.989 LabApp] Could not determine jupyterlab build status without nodejs
+[W 15:13:51.510 LabApp] 404 GET /api/contents/sc_analysis/code/Col_h3h3_reps1_2.ipynb?content=0&1619104431522 (127.0.0.1): No such file or directory: sc_analysis/code/Col_h3h3_reps1_2.ipynb
+[W 15:13:51.511 LabApp] No such file or directory: sc_analysis/code/Col_h3h3_reps1_2.ipynb
+[W 15:13:51.511 LabApp] 404 GET /api/contents/sc_analysis/code/Col_h3h3_reps1_2.ipynb?content=0&1619104431522 (127.0.0.1) 2.03ms referer=http://127.0.0.1:12345/lab
+[W 15:13:51.511 LabApp] 404 GET /api/contents/sc_analysis/code/sc_KB_to_Seurat_object_3_8_21.ipynb?content=0&1619104431521 (127.0.0.1): No such file or directory: sc_analysis/code/sc_KB_to_Seurat_object_3_8_21.ipynb
+[W 15:13:51.511 LabApp] No such file or directory: sc_analysis/code/sc_KB_to_Seurat_object_3_8_21.ipynb
+[W 15:13:51.512 LabApp] 404 GET /api/contents/sc_analysis/code/sc_KB_to_Seurat_object_3_8_21.ipynb?content=0&1619104431521 (127.0.0.1) 1.99ms referer=http://127.0.0.1:12345/lab
+[W 15:13:51.513 LabApp] 404 GET /api/contents/sc_analysis/code/archive/flowers_DE.ipynb?content=0&1619104431524 (127.0.0.1): No such file or directory: sc_analysis/code/archive/flowers_DE.ipynb
+[W 15:13:51.513 LabApp] No such file or directory: sc_analysis/code/archive/flowers_DE.ipynb
+[W 15:13:51.513 LabApp] 404 GET /api/contents/sc_analysis/code/archive/flowers_DE.ipynb?content=0&1619104431524 (127.0.0.1) 1.18ms referer=http://127.0.0.1:12345/lab
+[W 15:13:51.517 LabApp] 404 GET /api/contents/sc_analysis/code/sc101_104_scratch.ipynb?content=0&1619104431527 (127.0.0.1): No such file or directory: sc_analysis/code/sc101_104_scratch.ipynb
+[W 15:13:51.517 LabApp] No such file or directory: sc_analysis/code/sc101_104_scratch.ipynb
+[W 15:13:51.517 LabApp] 404 GET /api/contents/sc_analysis/code/sc101_104_scratch.ipynb?content=0&1619104431527 (127.0.0.1) 0.99ms referer=http://127.0.0.1:12345/lab
+[W 15:13:51.548 LabApp] 404 GET /api/contents/sc_analysis/code/shoots.ipynb?content=0&1619104431525 (127.0.0.1): No such file or directory: sc_analysis/code/shoots.ipynb
+[W 15:13:51.548 LabApp] No such file or directory: sc_analysis/code/shoots.ipynb
+[W 15:13:51.548 LabApp] 404 GET /api/contents/sc_analysis/code/shoots.ipynb?content=0&1619104431525 (127.0.0.1) 1.27ms referer=http://127.0.0.1:12345/lab
+[W 15:13:52.385 LabApp] 404 GET /api/contents/sc_analysis/code?1619104432414 (127.0.0.1): No such file or directory: sc_analysis/code
+[W 15:13:52.386 LabApp] No such file or directory: sc_analysis/code
+[W 15:13:52.386 LabApp] 404 GET /api/contents/sc_analysis/code?1619104432414 (127.0.0.1) 1.48ms referer=http://127.0.0.1:12345/lab
+[I 15:14:02.377 LabApp] Kernel started: c9eea3c6-4ac9-478f-92ef-f561a3885d64
+[I 15:14:02.861 LabApp] Adapting from protocol version 5.0 (kernel c9eea3c6-4ac9-478f-92ef-f561a3885d64) to 5.3 (client).
+[I 15:14:02.957 LabApp] Adapting from protocol version 5.0 (kernel c9eea3c6-4ac9-478f-92ef-f561a3885d64) to 5.3 (client).
+[I 15:16:01.573 LabApp] Saving file at /Col_h3h3_reps1_2.ipynb
+[I 15:32:02.627 LabApp] Saving file at /Col_h3h3_reps1_2.ipynb
+[I 15:55:04.350 LabApp] Kernel started: f349cdee-664b-4388-b9e8-3ef0cd2fe25e
+[I 15:55:04.848 LabApp] Adapting from protocol version 5.0 (kernel f349cdee-664b-4388-b9e8-3ef0cd2fe25e) to 5.3 (client).
+[I 15:57:04.133 LabApp] Saving file at /sc_KB_to_Seurat_object_3_8_21.ipynb
+[I 18:06:58.921 LabApp] Saving file at /Col_h3h3_reps1_2.ipynb
+[I 18:09:00.095 LabApp] Saving file at /Col_h3h3_reps1_2.ipynb
+[I 18:11:02.059 LabApp] Saving file at /Col_h3h3_reps1_2.ipynb
+[I 18:13:04.031 LabApp] Saving file at /Col_h3h3_reps1_2.ipynb
+[I 18:15:06.271 LabApp] Saving file at /Col_h3h3_reps1_2.ipynb
+[I 18:17:07.396 LabApp] Saving file at /Col_h3h3_reps1_2.ipynb
+[I 19:51:18.846 LabApp] Starting buffering for c9eea3c6-4ac9-478f-92ef-f561a3885d64:0fb601d3-0692-4844-9c12-eb869d36b3df
+[I 19:51:19.314 LabApp] Starting buffering for f349cdee-664b-4388-b9e8-3ef0cd2fe25e:12498159-620d-436d-9495-bb2822f117e1
+[I 19:52:40.513 LabApp] Shutting down on /api/shutdown request.
+[I 19:52:40.515 LabApp] Shutting down 2 kernels
+[I 19:52:40.916 LabApp] Kernel shutdown: c9eea3c6-4ac9-478f-92ef-f561a3885d64
+[I 19:52:40.917 LabApp] Kernel shutdown: f349cdee-664b-4388-b9e8-3ef0cd2fe25e
