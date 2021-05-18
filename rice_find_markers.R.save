@@ -1,0 +1,13 @@
+library(Seurat)
+library(here)
+library(future)
+
+
+
+
+options(future.globals.maxSize = 100000 * 1024^2)
+plan("multiprocess", workers = 4)
+rice_seu = readRDS(here("../data/", "Rice_Atlas_8WT_ref_tz2_seu4.rds"))
+Idents(object = rice_seu) = "consensus.anno"
+markers = FindAllMarkers(rice_seu, max.cells.per.ident = 1000, logfc.threshold = 1)
+saveRDS(markers, here("../data/", "markers.rds"))
