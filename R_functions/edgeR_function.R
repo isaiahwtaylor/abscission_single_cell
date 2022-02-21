@@ -1,3 +1,32 @@
+counts_to_reads_df <- function(path_to_counts) {
+
+    #get all files in bulk directory and load them in
+    file_list <- list.files(path=path_to_counts, recursive = T)
+    reads <- list()
+    targets_rows = data.frame()
+
+    for (i in 1:length(file_list)){
+      reads[[i]]=read.table(paste(path_to_counts, file_list[i], sep = "/"), sep="\t")
+      rownames(reads[[i]]) =reads[[i]]$V1
+      if (i == 1) {
+        target_rows=reads[[i]][,1]
+      }
+      target_rows = intersect(target_rows, reads[[i]][,1])
+      print(file_list[[i]])
+    }
+
+    #make df
+    reads_df <- data.frame(matrix(ncol=0, nrow=length(target_rows)))
+
+    #loop over all read objects and put in column of df
+    for (i in 1:length(reads)){
+      reads_df[,i]=reads[[i]][target_rows,2]
+    }
+
+    rownames(reads_df) = target_rows
+    return(reads_df)
+}
+
 edgeR_2_sample <- function(reads_df, s1_label, s2_label, s1_indices, s2_indices, annotations) {
   
   
