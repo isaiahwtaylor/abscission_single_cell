@@ -1,0 +1,4 @@
+rsync -r /home/robotmessenger810/sc_analysis/data/for_figures /home/robotmessenger810/data/buckets/single_cell_bucket_3_4_21//
+
+gsutil rsync gs://iwt-single-cell-3-4-21/for_figures "C:\Users\iwt\Dropbox (Duke Bio_Ea)\Benfey Lab\Current Lab Members\Isaiah_Taylor\manuscripts\abscission_single_cell\sync_directory"
+
